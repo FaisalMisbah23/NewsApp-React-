@@ -14,7 +14,7 @@ export class NewsItem extends Component {
     position: "absolute",
     }} >
     <span class=" badge rounded-pill bg-danger" style={{left: '90%',zindex: "1"}} >
-    {source}
+    {source}&#xF588;
   </span></div>
   <img src={!urlToImage?"https://t4.ftcdn.net/jpg/04/73/25/49/360_F_473254957_bxG9yf4ly7OBO5I0O5KABlN930GwaMQz.jpg":urlToImage} className="card-img-top" alt="..."/>
   <div className="card-body">

@@ -1,0 +1,60 @@
+first: 9cd21b678a9e426eafd9a28858e9e298
+https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9cd21b678a9e426eafd9a28858e9e298&page=${this.state.page = 1}&pagesize=${this.props.pagesize}
+
+2nd: edacbb129511830e5831d1a9870fbe68
+link: `https://gnews.io/api/v4/search?q=example&lang=ur&country=${this.props.country}&max=${this.props.pagesize}&category=${this.props.category}&apiKey=edacbb129511830e5831d1a9870fbe68&page=${this.state.page = 1}`
+
+
+us: United States
+ar: United Arab Emirates (UAE)
+at: Austria
+au: Australia
+be: Belgium
+bg: Bulgaria
+br: Brazil
+ca: Canada
+ch: Switzerland
+cn: China
+co: Colombia
+cu: Cuba
+cz: Czech Republic
+de: Germany
+eg: Egypt
+fr: France
+gb: United Kingdom
+gr: Greece
+hk: Hong Kong
+hu: Hungary
+id: Indonesia
+ie: Ireland
+il: Israel
+in: India
+it: Italy
+jp: Japan
+kr: South Korea
+lt: Lithuania
+lv: Latvia
+ma: Morocco
+mx: Mexico
+my: Malaysia
+ng: Nigeria
+nl: Netherlands
+no: Norway
+nz: New Zealand
+ph: Philippines
+pl: Poland
+pt: Portugal
+ro: Romania
+rs: Serbia
+ru: Russia
+sa: Saudi Arabia
+se: Sweden
+gs: South Georgia and the South Sandwich Islands
+is: Iceland
+kt: Saint Kitts and Nevis
+ht: Haiti
+rt: Réunion
+wu: Wuhan (City in China)
+as: American Samoa
+ve: Venezuela
+za: South Africa

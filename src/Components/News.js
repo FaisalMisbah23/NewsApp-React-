@@ -34,7 +34,7 @@ export class News extends Component {
         console.log("ABC")
         this.props.setProgress(0);
          // eslint-disable-next-line
-         let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9cd21b678a9e426eafd9a28858e9e298&page=${this.state.page = 1}&pagesize=${this.props.pagesize}`;
+         let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=edacbb129511830e5831d1a9870fbe68&page=${this.state.page = 1}&pagesize=${this.props.pagesize}`;
          this.setState({loading:true})
         let data= await fetch(url)
         let parsedData= await data.json()
@@ -46,7 +46,7 @@ export class News extends Component {
     NextPage= async()=>{
         this.props.setProgress(0);
         if(!(this.state.page + 1 > Math.ceil(this.state.totalArticles/this.props.pagesize))){    
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9cd21b678a9e426eafd9a28858e9e298&page=${this.state.page + 1}&pagesize=${this.props.pagesize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=edacbb129511830e5831d1a9870fbe68&page=${this.state.page + 1}&pagesize=${this.props.pagesize}`;
        this.setState({loading:true})
        this.props.setProgress(30);
         let data= await fetch(url)
@@ -66,7 +66,7 @@ export class News extends Component {
         
         console.log("Previous")
         this.props.setProgress(0);
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=9cd21b678a9e426eafd9a28858e9e298&page=${this.state.page - 1}&pagesize=${this.props.pagesize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=edacbb129511830e5831d1a9870fbe68&page=${this.state.page - 1}&pagesize=${this.props.pagesize}`;
         this.setState({loading:true})
         this.props.setProgress(20);
         let data= await fetch(url)
